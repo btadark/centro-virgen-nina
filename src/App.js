@@ -11,6 +11,7 @@ import EscuelaInicial from './pages/EscuelaInicial';
 import Nosotros from './pages/Nosotros';
 import Principal from './pages/Principal';
 import Programas from './pages/Programas';
+import VirgenNina from './pages/VirgenNina';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
         <Route exact path='/equipo-multidisciplinario' component={EquipoMultidisciplinario}/>
         <Route exact path='/asistencia-social' component={AsistenciaSocial}/>
         <Route exact path='/escuela-inicial' component={EscuelaInicial}/>
-
+        <Route exact path='/virgen-nina' component={VirgenNina}/>
       </Switch>
       <Footer />
     </Router>

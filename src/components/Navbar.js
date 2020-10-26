@@ -1,5 +1,5 @@
 import React from 'react';
-import logoCentro from '../img/logoVirgen.png';
+import logoCentro from '../img/logo.png';
 // import logoEpdb from '../img/epdb1.png';
 import { Link } from 'react-router-dom';
 
@@ -33,17 +33,11 @@ const Navbar = () => {
                             </div>
                         </li>
                         <li className="nav-item mr-4">
-                            <Link className="nav-link" to={'/nosotros'}>Quienes Somos</Link>
+                            <Link className="nav-link" to={'/nosotros'}>Nosotros</Link>
                         </li>
-                        `<li className="nav-item mr-4">
-                            <Link className="nav-link" to={'/programas'}>Programas</Link>
-                        </li>
+                        
                     </ul>
                 </div>
-
-                {/* <Link to={'/'}>
-                    <img src={logoEpdb} width="90"  alt="" loading="lazy"/>
-                </Link> */}
             </div>
         </nav>
         

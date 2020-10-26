@@ -1,29 +1,40 @@
 import React from 'react';
-import img1 from '../img/2.jpeg';
 
 const Nosotros = () => {
     return (
         <div className="container mt-5 pt-5">
-            <h2 className="guindo text-center mt-4 font-weight-bold">Quienes Somos</h2>
-            <hr/>
-            <p className="descripcion mt-5 mb-5">La Asociación Centro Virgen Niña – epdb es una Obra de la iglesia Católica sin fines de lucro, con Personería Jurídica  Canónica. Fundada en agosto de 1993, por la Hna. Grazia Micaelli junto a un grupo de personas laicas bolivianas,  Hasta ahora es nuestra principal benefactora además de la ayuda muy comprometida de familiares y amigos de la comunidad a través de donaciones y apoyos solidarios que siempre llegan.</p>
+            <h2 className="guindo text-center mt-4 font-weight-bold">¿Quiénes Somos?</h2>
+            <hr className="mb-5"/>
+            
             <div className="row">
-                <div className="col-md-5 mb-5 mb-md-0">
-                    <img className="w-100" src={img1} alt=""/>
+                <div className="col-md-9">
+                    <h2 className="mb-3">Historia</h2>
+                    <p className="mb-5">La Asociación Centro Virgen Niña - EPDB, fue fundada en agosto de 1993, por la Hna. Grazia Micaelli y junto a un grupo de laicos comprometidos. Es una obra de la Iglesia sin fines de lucro, enfocada en el desarrollo humano, social y educativo, trabajando en valores de calidad, solidaridad y dignidad.</p>
+
+                    <h2 className="mb-3">Misión</h2>
+                    <p className="mb-5">Constituirse en un Centro de referencia para la atención integral de aquellas poblaciones que son vulnerables como los niños y niñas con y sin discapacidad, en su primera infancia, muejeres, jóvenes, familias y adultos mayores que viven en condiciones de desventaja, contribuyendo a su inclusión y mejoramiento en su calidad de vida.</p>
+
+                    <h2 className="mb-3">Visión</h2>
+                    <p className="mb-5">Promover la formación, el desarrollo, la atención, el crecimiento integral espiritual de niñas y niños, con y sin discapacidad, mujeres, adultos mayores y familias en situación de marginalidad física, mental, social y económica, que viven en condiciones de pobreza con menos oportunidades, creando conjuntamente las condiciones, para que sean sujetos de su propio desarrollo.</p>
+                    
+
+                    <h2 className="mb-4">Valores y Principios</h2>
+                    <ul className="valores mb-5">
+                        <li className="mb-4">Compromiso por los derechos humanos y la dignidad de las personas. Promoviendo la igualdad de derechos a la educación, salud y nutrición, protección de sectores de la población vulnerables, respetando las diferencias individuales.</li>
+                        <li className="mb-4">Solidaridad y sensibilidad social. Implementando acciones de inclusión Educativa y Social en el ámbito familiar y la comunidad local.</li>
+                        <li className="mb-4">Reconocer y respetar las diferencias individuales de los educandos y de todas las personas que buscan al centro como un opción</li>
+                        <li className="mb-4">Identidad católica y educación en la fe. Reconociendo a Dios como Padre que acoge, ama, respeta apoya y consuela sobre todo a los más necesitados, impulsando la acción pastoral a partir de un diálogo interreligioso y ecuménico con las religiones autóctonas y originarias.</li>
+                        <li className="mb-4">Buscando promover redes entre organizaciones similares, organismos gubernamentales y no gubernamentales a fin de lograr un trabajo coordinado y la participación activa, tanto en la detección como en el tratamiento y rehabilitación de niños y niñas con discapacidad.</li>
+                        
+                    </ul>  
                 </div>
-                <div className="col-md-7">
-                    <p>Un 6 de abril de 1993, la Hna. Grazia abre las puertas de lo que será, el Centro Virgen Niña, habiendo recogido de sus casas a 6 niños con discapacidad, para que ellos fueran apoyados por un equipo naciente de terapeutas y educadoras. La visión de la Hermana, ver a niños y niñas con discapacidad, leve y severa, vivir una vida digna gracias a los cuidados, las terapias rehabilitadoras, el apoyo en su nutrición, el derecho a la educación, la inclusión familiar, social y educativa y, sobre todo, la calidez humana con que se los recibe día a día en el Centro. </p> 
+                <div className="col-md-3 pt-3">
+                    <button className="btn btn-info btn-block mt-5 font-weight-bold">DIRECTORIO</button>
+                    <button className="btn btn-success btn-block mt-4 font-weight-bold">ADMINISTRACIÓN</button>
                 </div>
             </div>
-            <div className="row mt-5">
-                <div className="col-md-7">
-                    <p>Hoy, 27 años después, la obra ha crecido, más de 200 niños/as con discapacidad de 6 meses a 15 años, llegan al Centro cada día de la mano de sus padres. Con una atención innovadora, en la que con los niños más pequeños, se inician con un Hogar de día, donde se enfoca la independencia personal. De igual manera el apoyo en salud, protección y nutrición, se realiza a casi 200 niños y niñas sin discapacidad en las edades comprendidas entre 1 a 5 años. Dentro de la población que nos necesita están también nuestras familias y nuestros abuelitos y abuelitas.</p> 
-                </div>
-                <div className="col-md-5 mb-5 mb-md-0">
-                    <img className="w-100" src={img1} alt=""/>
-                </div>
-            </div>
-            <p className="mt-md-5 mb-5">La atención a personas con necesidades en salud, económicas y sociales debe ser responsabilidad de nuestra Sociedad, de ahí que, el concurso de Actores gubernamentales, tanto a Nivel Central del Estado, como la Gobernación, el Municipio, Universidades, publicas y privadas y cada ciudadano dentro de su vida diaria, están comprometidos a llegar a una inclusión en la familia, en la sociedad, a nivel educativo y laboral, de quienes son más  vulnerables.</p>
+            
+                    
         </div>
     )
 }
