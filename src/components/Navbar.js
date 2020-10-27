@@ -1,11 +1,12 @@
 import React from 'react';
 import logoCentro from '../img/logo.png';
-// import logoEpdb from '../img/epdb1.png';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
     return (
 
+        <>
+        <div id="titulo" className="rectangulo"></div>
         <nav className="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
             <div className="container">
                 <Link to={'/'}>
@@ -18,22 +19,22 @@ const Navbar = () => {
                 <div className="enlaces collapse navbar-collapse" id="navbarColor01">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item mr-4">
-                            <Link className="nav-link"  to={'/'} >Inicio</Link>
+                            <Link className="nav-link"  to={'/#titulo'}>Inicio</Link>
                         </li>
                         <li className="nav-item dropdown mr-4">
                             <Link className="nav-link dropdown-toggle" data-toggle="dropdown" to={'/'} role="button" aria-haspopup="true" aria-expanded="false">Programas</Link>
                             <div className="dropdown-menu">
-                                <Link className="dropdown-item" to={'/desarrollo-infantil'}>Desarrollo Infantil</Link>
-                                <Link className="dropdown-item" to={'/equipo-multidisciplinario'}>Equipo Multidisciplinario</Link>
-                                <Link className="dropdown-item" to={'/asistencia-social'}>Area de Asistencia Social</Link>
-                                <Link className="dropdown-item" to={'/escuela-inicial'}>Escuela Fiscal de Convenio Inicial</Link>
-                                <Link className="dropdown-item" to={'/escuela-especial'}>Escuela Especial Fiscal de Convenio EPDB</Link>
+                                <Link className="dropdown-item" to={'/desarrollo-infantil#titulo'}>Desarrollo Infantil</Link>
+                                <Link className="dropdown-item" to={'/equipo-multidisciplinario#titulo'}>Equipo Multidisciplinario</Link>
+                                <Link className="dropdown-item" to={'/asistencia-social#titulo'}>Area de Asistencia Social</Link>
+                                <Link className="dropdown-item" to={'/escuela-inicial#titulo'}>Escuela Inicial en Familia Comunitaria</Link>
+                                <Link className="dropdown-item" to={'/escuela-especial#titulo'}>Escuela de Educación Especial</Link>
                                 <div className="dropdown-divider"></div>
                                 <Link className="dropdown-item" to={''}></Link>
                             </div>
                         </li>
                         <li className="nav-item mr-4">
-                            <Link className="nav-link" to={'/nosotros'}>Nosotros</Link>
+                            <Link className="nav-link" to={'/nosotros#titulo'}>Nosotros</Link>
                         </li>
                         
                     </ul>
@@ -41,6 +42,7 @@ const Navbar = () => {
             </div>
         </nav>
         
+    </>        
     )
 }
 

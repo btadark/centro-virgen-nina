@@ -1,12 +1,13 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Nosotros = () => {
     return (
-        <div className="container mt-5 pt-5">
+        <div className="container">
             <h2 className="guindo text-center mt-4 font-weight-bold">¿Quiénes Somos?</h2>
-            <hr className="mb-5"/>
+            <hr className="mb-0 mb-md-5"/>
             
-            <div className="row">
+            <div className="row d-flex flex-column-reverse flex-md-row">
                 <div className="col-md-9">
                     <h2 className="mb-3">Historia</h2>
                     <p className="mb-5">La Asociación Centro Virgen Niña - EPDB, fue fundada en agosto de 1993, por la Hna. Grazia Micaelli y junto a un grupo de laicos comprometidos. Es una obra de la Iglesia sin fines de lucro, enfocada en el desarrollo humano, social y educativo, trabajando en valores de calidad, solidaridad y dignidad.</p>
@@ -28,9 +29,9 @@ const Nosotros = () => {
                         
                     </ul>  
                 </div>
-                <div className="col-md-3 pt-3">
-                    <button className="btn btn-info btn-block mt-5 font-weight-bold">DIRECTORIO</button>
-                    <button className="btn btn-success btn-block mt-4 font-weight-bold">ADMINISTRACIÓN</button>
+                <div className="col-md-3 pt-md-3 pt-0 mb-5">
+                    <Link to={'/directorio#titulo'} className="btn btn-info btn-block mt-5 font-weight-bold">DIRECTORIO</Link>
+                    <Link to={'/administracion#titulo'} className="btn btn-success btn-block mt-4 font-weight-bold">PLANTEL ADMINISTRATIVO</Link>
                 </div>
             </div>
             
