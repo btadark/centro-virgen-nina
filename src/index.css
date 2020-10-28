@@ -268,3 +268,8 @@ a {
 .redes-sociales {
     width: 45px;
 }
+
+
+.dropdown-menu a{
+    color: black;
+}

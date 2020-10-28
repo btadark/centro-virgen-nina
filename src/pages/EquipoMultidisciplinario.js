@@ -27,6 +27,8 @@ const EquipoMultidisciplinario = () => {
             />
             
             <p className="mt-md-5 ">Contamos con las áreas de Medicina General, Enfermería, Nutrición, Fisioterapia, Psicomotricidad, Fonoaudiología, Psicología, Apoyo Especifico en Autismo, Trabajo Social y Psicopedagogía.</p>
+
+            <h2 className="font-weight-bold text-center mt-5 mb-5 mb-md-0">Evaluación Multidisciplinaria</h2>
             
             <div className="row d-flex justify-content-between align-items-center pt-md-5 pb-2">
                 <div className="col-12 col-lg-5 pb-4">
@@ -35,7 +37,7 @@ const EquipoMultidisciplinario = () => {
                     <p className="pr-md-4">Cuando reúna los requisitos será citado para comenzar con el recorrido como se muestra en este video.</p>
                 </div>
                 <div className="col-12 col-lg-7 embed-responsive">
-                    <ReactPlayer url="https://youtu.be/75mwC4y0EHE" />
+                    <ReactPlayer url="https://www.youtube.com/watch?v=AUBRURsI8C0" />
                 </div>
             </div>
 

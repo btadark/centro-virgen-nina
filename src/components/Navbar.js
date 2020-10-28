@@ -33,9 +33,19 @@ const Navbar = () => {
                                 <Link className="dropdown-item" to={''}></Link>
                             </div>
                         </li>
-                        <li className="nav-item mr-4">
-                            <Link className="nav-link" to={'/nosotros#titulo'}>Nosotros</Link>
+                        <li className="nav-item dropdown mr-4">
+                            <Link className="nav-link dropdown-toggle" data-toggle="dropdown" to={'/'} role="button" aria-haspopup="true" aria-expanded="false">Nosotros</Link>
+                            <div className="dropdown-menu">
+                                <Link className="dropdown-item" to={'/nosotros#titulo'}>¿Quiénes Somos?</Link>
+                                <Link className="dropdown-item" to={'/directorio#titulo'}>Directorio</Link>
+                                <Link className="dropdown-item" to={'/administracion#titulo'}>Plantel Administrativo</Link>
+                                <div className="dropdown-divider"></div>
+                                <Link className="dropdown-item" to={''}></Link>
+                            </div>
                         </li>
+                        {/* <li className="nav-item mr-4">
+                            <Link className="nav-link" to={'/nosotros#titulo'}>Nosotros</Link>
+                        </li> */}
                         
                     </ul>
                 </div>

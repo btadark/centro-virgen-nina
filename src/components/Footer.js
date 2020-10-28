@@ -25,7 +25,11 @@ const Footer = () => {
                                     <a href="https://www.facebook.com/virgennina1993/" target="_blank" rel="noopener noreferrer">
                                         <img className="redes-sociales" src={facebook} alt="facebook"/>
                                     </a>
-                                    <img className="redes-sociales" src={youtube} alt="facebook"/>
+
+                                    <a href="https://www.youtube.com/channel/UCxM6f0DJe6885WetuFVlrbg" target="_blank" rel="noopener noreferrer">
+                                        <img className="redes-sociales" src={youtube} alt="facebook"/>
+                                    </a>
+                                    
                                 </div>
                             </div>
                         </div>
