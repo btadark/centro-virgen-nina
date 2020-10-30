@@ -11,12 +11,12 @@ import card6 from '../img/AsistSocial/social.jpg';
 const Main = () => {
 
     const programas = [
-        {titulo: 'Virgen Niña', enlace: '/virgen-nina#titulo', img: card1},
-        {titulo: 'Equipo Multidisciplinario', enlace: '/equipo-multidisciplinario#titulo', img: card2},
-        {titulo: 'Escuela de Educacion Especial', enlace: '/escuela-especial#titulo', img: card3},
-        {titulo: 'Escuela Inicial en Familia Comunitaria', enlace: '/escuela-inicial#titulo', img: card4},
-        {titulo: 'Desarrollo Infantil', enlace: '/desarrollo-infantil#titulo', img: card5},
-        {titulo: 'Asistencia Social', enlace: '/asistencia-social#titulo', img: card6},    
+        {titulo: 'Virgen Niña', enlace: '/virgen-nina#principal', img: card1},
+        {titulo: 'Equipo Multidisciplinario', enlace: '/equipo-multidisciplinario#principal', img: card2},
+        {titulo: 'Escuela de Educacion Especial', enlace: '/escuela-especial#principal', img: card3},
+        {titulo: 'Escuela Inicial en Familia Comunitaria', enlace: '/escuela-inicial#principal', img: card4},
+        {titulo: 'Desarrollo Infantil', enlace: '/desarrollo-infantil#principal', img: card5},
+        {titulo: 'Asistencia Social', enlace: '/asistencia-social#principal', img: card6},    
     ];
 
     return (
