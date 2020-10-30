@@ -30,8 +30,8 @@ const Nosotros = () => {
                     </ul>  
                 </div>
                 <div className="col-md-3 pt-md-3 pt-0 mb-5">
-                    <Link to={'/directorio#titulo'} className="btn btn-info btn-block mt-5 font-weight-bold">DIRECTORIO</Link>
-                    <Link to={'/administracion#titulo'} className="btn btn-success btn-block mt-4 font-weight-bold">PLANTEL ADMINISTRATIVO</Link>
+                    <Link to={'/directorio#principal'} className="btn btn-info btn-block mt-5 font-weight-bold">DIRECTORIO</Link>
+                    <Link to={'/administracion#principal'} className="btn btn-success btn-block mt-4 font-weight-bold">PLANTEL ADMINISTRATIVO</Link>
                 </div>
             </div>
             

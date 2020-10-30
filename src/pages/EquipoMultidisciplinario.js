@@ -37,7 +37,7 @@ const EquipoMultidisciplinario = () => {
                     <p className="pr-md-4">Cuando reúna los requisitos será citado para comenzar con el recorrido como se muestra en este video.</p>
                 </div>
                 <div className="col-12 col-lg-7 embed-responsive">
-                    <ReactPlayer url="https://www.youtube.com/watch?v=AUBRURsI8C0" />
+                    <ReactPlayer controls url="https://www.youtube.com/watch?v=AUBRURsI8C0" />
                 </div>
             </div>
 

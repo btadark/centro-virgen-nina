@@ -2,6 +2,7 @@ import React from 'react'
 import ReactPlayer from 'react-player';
 import ContenidoProg from '../components/programas/ContenidoProg';
 import imagen from '../img/virgen/02_virgen.jpeg';
+import oracion from '../img/virgen/oracion.png';
 
 const VirgenNina = () => {
 
@@ -32,9 +33,13 @@ const VirgenNina = () => {
             <hr/>
             <div className="row mt-5 mb-5">
                 <div className="col-12 col-lg-7 m-auto embed-responsive">
-                    <ReactPlayer url="https://m.youtube.com/watch?v=zMkyhGrrXeQ" />
+                    <ReactPlayer controls url="https://m.youtube.com/watch?v=zMkyhGrrXeQ" />
                 </div>
             </div>
+            <div className="text-center mb-5">
+                <img src={oracion} className="w-100" alt="oracion"/>  
+            </div>
+            
         </div>        
     )
 }
